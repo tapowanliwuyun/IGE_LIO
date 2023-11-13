@@ -32,9 +32,8 @@ rosbag play LiDAR_Degenerate.bag
 Download the LiDAR_Degenerate.bag files via OneDrive ([FAST-LIVO-Datasets](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhengcr_connect_hku_hk/Esiqlmaql0dPreuOhiHlXl4Bqu5RRRIViK1EyuR4h1_n4w?e=fZdVn0)) 
 
 
-<div align="center">
 <img src="pic/LIDAR_degenerat_1.gif" width=50% />
-</div>
+
 
 ### 3.1 NTU VIRAL DATASET
 ```
@@ -54,11 +53,10 @@ roslaunch ig_lio mapping_my_rs_hall_IG_LIO.launch
 rosbag play xxx.bag
 ```
 
-<div align="left">
 <img src="pic/rall_sotation_5.gif" width=50% />
 <img src="pic/hall_rotation_1.png" width = 48% >
 
-2. run datasets using solid-state LiDAR
+1. run datasets using solid-state LiDAR
 
 ```
 roslaunch ig_lio mapping_livox_hap_hall_IG_LIO.launch
@@ -83,11 +81,11 @@ Edit `config/xxx.yaml` and  `launch/xxx.launch` to set the below parameters:
 
 2. `launch/xxx.launch`
 * edge_plane_flag: 1 represents using only edge feature points (geometric edge points and intensity edge points) 2 represents using only geometric planar points 3 represents using all three feature points.
-* point_filter_num: The sampling interval for a new scan. It is recommended that 3~4 for faster odometry, 1~2 for denser map.
-* filter_size_map: Downsample the  points in LiDAR global map. It is recommended that 0.2~0.3 for indoor scenes, 0.3~0.5 for outdoor scenes.
-* filter_size_surf: Downsample the geometric planar points in a new scan. It is recommended that 0.2~0.4 for indoor scenes, 0.3~0.5 for outdoor scenes.
-* filter_size_edge: Downsample the geometric edge points in a new scan. It is recommended that 0.05~0.2 for indoor scenes, 0.2~0.5 for outdoor scenes.
-* filter_size_inten_edge: Downsample the points in a new scan. It is recommended that 0.05~0.2 for indoor scenes, 0.2~0.5 for outdoor scenes.
+* point_filter_num: The sampling interval for a new scan. It is recommended that `3~4` for faster odometry, `1~2` for denser map.
+* filter_size_map: Downsample the  points in LiDAR global map. It is recommended that `0.2~0.3` for indoor scenes, `0.3~0.5` for outdoor scenes.
+* filter_size_surf: Downsample the geometric planar points in a new scan. It is recommended that `0.2~0.4` for indoor scenes, `0.3~0.5` for outdoor scenes.
+* filter_size_edge: Downsample the geometric edge points in a new scan. It is recommended that `0.05~0.2` for indoor scenes, `0.2~0.5` for outdoor scenes.
+* filter_size_inten_edge: Downsample the points in a new scan. It is recommended that `0.05~0.2` for indoor scenes, `0.2~0.5` for outdoor scenes.
 
 ## 5. Acknowledgements
 Thanks for [FAST-LIO2](https://github.com/hku-mars/FAST_LIO). Thanks for these outstanding work and its contributors.
