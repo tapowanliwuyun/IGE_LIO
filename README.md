@@ -46,6 +46,9 @@ Download the NTU VIRAL DATASET on website ([NTU VIRAL DATASET](https://ntu-aris.
 
 ### 3.3  Our private dataset
 
+
+
+
 1. run datasets using rotating LiDAR
 
 ```
@@ -62,6 +65,8 @@ rosbag play xxx.bag
 roslaunch ig_lio mapping_livox_hap_hall_IG_LIO.launch
 rosbag play xxx.bag
 ```
+
+Download the private datasets on website ([Our private DATASET](https://drive.google.com/drive/folders/1Ak3TDvdyVSKqFxEqssSO31hpNjeRDSrK)) 
 
 ## 4 Important parameters
 
