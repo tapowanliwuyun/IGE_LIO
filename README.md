@@ -23,50 +23,34 @@ Clone the repository and catkin_make:
     source devel/setup.bash
 ```
 ## 3 Run IG_LIO
-### 3.1 LiDAR_Degenerated Dataset
-
-```
-roslaunch ig_lio mapping_lidar_degenerate_IG_LIO.launch
-rosbag play LiDAR_Degenerate.bag
-```
-Download the LiDAR_Degenerate.bag files via OneDrive ([FAST-LIVO-Datasets](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhengcr_connect_hku_hk/Esiqlmaql0dPreuOhiHlXl4Bqu5RRRIViK1EyuR4h1_n4w?e=fZdVn0)) 
-
-
-<img src="pic/LIDAR_degenerat_1.gif" width=50% />
-
-
-### 3.1 NTU VIRAL DATASET
-```
-roslaunch ig_lio mapping_eee_01_IG_LIO_ouster16.launch
-rosbag play xxx.bag
-```
-
-Download the NTU VIRAL DATASET on website ([NTU VIRAL DATASET](https://ntu-aris.github.io/ntu_viral_dataset/)) 
-
-
-### 3.3  Our private dataset
 
 
 
 
-1. run datasets using rotating LiDAR
+### 3.1  Our private dataset
+
+
+run our datasets 
 
 ```
 roslaunch ig_lio mapping_my_rs_hall_IG_LIO.launch
 rosbag play xxx.bag
 ```
 
-<img src="pic/rall_sotation_5.gif" width=50% />
 <img src="pic/hall_rotation_1.png" width = 48% >
+<img src="pic/rall_sotation_5.gif" width=50% />
 
-1. run datasets using solid-state LiDAR
-
-```
-roslaunch ig_lio mapping_livox_hap_hall_IG_LIO.launch
-rosbag play xxx.bag
-```
 
 Download the private datasets on website ([Our private DATASET](https://drive.google.com/drive/folders/1Ak3TDvdyVSKqFxEqssSO31hpNjeRDSrK)) 
+
+### 3.2 LiDAR_Degenerated Dataset
+
+
+Download the LiDAR_Degenerate.bag files via OneDrive ([FAST-LIVO-Datasets](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhengcr_connect_hku_hk/Esiqlmaql0dPreuOhiHlXl4Bqu5RRRIViK1EyuR4h1_n4w?e=fZdVn0)) 
+
+
+<img src="pic/LIDAR_degenerat_1.gif" width=50% />
+
 
 ## 4 Important parameters
 

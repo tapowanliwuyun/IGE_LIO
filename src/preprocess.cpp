@@ -2365,7 +2365,6 @@ void Preprocess::rs_handler(const sensor_msgs::PointCloud2_<allocator<void>>::Co
     double avia_t1 = omp_get_wtime();
     avia_delt_t = avia_t1 - rs_t0;
     rs_time += avia_delt_t;
-    printf("rslidar Feature extraction time: %lf \n", rs_time / rs_count);
 
     static bool is_file_created = false;
     std::string WORK_SPACE_PATH = "/home/bupo/my_study/ig_lio_git/ig_lio";

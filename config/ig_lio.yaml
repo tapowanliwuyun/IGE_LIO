@@ -16,8 +16,8 @@ preprocess:
 
     intensity_dient_min: 20 
     intensity_dient_max: 20 
-    lookfor_min_num: 2
-    lookfor_max_num: 2
+    lookfor_min_num: 1
+    lookfor_max_num: 1
     range_blind: 0.1 
     delete_fov_degree: 0 
 
