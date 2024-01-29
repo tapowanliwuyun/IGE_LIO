@@ -1,4 +1,4 @@
-# IGE_LIO (Under Continuous Update)
+# IGE_LIO (Continuously Updating and Improving)
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
@@ -27,7 +27,7 @@ Clone the repository and catkin_make:
 
 
 
-### 3.1  Our private dataset
+### 3.1  Our private datasets
 
 
 run our datasets 
