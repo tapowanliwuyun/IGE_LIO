@@ -20,7 +20,7 @@ Panels:
         - /cloud_geo_plane1
         - /cloud_geo_edge1
         - /left_camera1
-      Splitter Ratio: 0.6432291865348816
+      Splitter Ratio: 0.6432291865348817
     Tree Height: 1271
   - Class: rviz/Selection
     Name: Selection
