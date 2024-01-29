@@ -1,4 +1,4 @@
-# IG_LIO
+# IGE_LIO
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
@@ -16,13 +16,13 @@ Clone the repository and catkin_make:
 
 ```
     cd ~/$A_ROS_DIR$/src
-    git clone https://github.com/tapowanliwuyun/IG_LIO.git
-    cd IG_LIO
+    git clone https://github.com/tapowanliwuyun/IGE_LIO.git
+    cd IGE_LIO
     cd ..
     catkin_make
     source devel/setup.bash
 ```
-## 3 Run IG_LIO
+## 3 Run IGE_LIO
 
 
 
