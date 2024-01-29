@@ -1,4 +1,4 @@
-# IGE_LIO
+# IGE_LIO (Under Continuous Update)
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
