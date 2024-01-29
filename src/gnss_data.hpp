@@ -18,6 +18,7 @@ class GNSSData {
     int status = 0;
     int service = 0;
 
+
   private:
     static GeographicLib::LocalCartesian geo_converter;
     static bool origin_position_inited;

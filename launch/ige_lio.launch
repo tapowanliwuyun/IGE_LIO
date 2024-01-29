@@ -3,7 +3,7 @@
 
 	<arg name="rviz" default="true" />
 
-	<rosparam command="load" file="$(find ig_lio)/config/ig_lio.yaml" />
+	<rosparam command="load" file="$(find ig_lio)/config/ige_lio.yaml" />
 
 	<param name="feature_extract_enable" type="bool" value="1"/>
 

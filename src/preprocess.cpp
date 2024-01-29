@@ -27,6 +27,7 @@ Preprocess::Preprocess()
   smallp_ratio = 1.2;   //..
   given_offset_time = false; //
 
+
   jump_up_limit = cos(jump_up_limit / 180 * M_PI);   //
   jump_down_limit = cos(jump_down_limit / 180 * M_PI);  //
   cos160 = cos(cos160 / 180 * M_PI); //夹角限制

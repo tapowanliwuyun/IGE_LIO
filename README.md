@@ -33,7 +33,7 @@ Clone the repository and catkin_make:
 run our datasets 
 
 ```
-roslaunch ig_lio mapping_my_rs_hall_IG_LIO.launch
+roslaunch ig_lio mapping_my_rs_hall_IGE_LIO.launch
 rosbag play xxx.bag
 ```
 

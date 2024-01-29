@@ -4,6 +4,7 @@
 #include <boost/filesystem.hpp>
 #include "glog/logging.h"
 
+
 bool FileManager::CreateFile(std::ofstream& ofs, std::string file_path) {
     ofs.open(file_path.c_str(), std::ios::app);
     if (!ofs) {

@@ -17,6 +17,7 @@ void GNSSData::UpdateXYZ() {
     geo_converter.Forward(latitude, longitude, altitude, local_E, local_N, local_U);
 }
 
+
 bool GNSSData::SyncData(std::deque<GNSSData>& UnsyncedData, std::deque<GNSSData>& SyncedData, double sync_time) {
     while (UnsyncedData.size() >= 2) {
         if (UnsyncedData.front().time > sync_time)
